@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me</title>
+    <link type="text/css" rel="stylesheet" href="../css/personal_webpage/stylesheet.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+      <script src="http://cs.coloradocollege.edu/~ayeung/javascript/personal_webpage/snowstorm-min.js"></script>
+      <!-- Customize the snowStorm object -->
+      <script>
+	snowStorm.snowColor = '#99ccff';
+	snowStorm.flakesMax = 128;
+	snowStorm.flakesMaxActive = 64;
+	snowStorm.vMaxX = 2;
+	snowStorm.vMaxY = 2;
+	snowStorm.flakeBottom = null;
+	snowStorm.snowStick = true;
+	snowStorm.snowCollect = false;
+	snowStorm.targetElement = null;
+	snowStorm.followMouse = false;
+	snowStorm.flakeTypes = 6;
+	snowStorm.flakeWidth = 5;
+	snowStorm.flakeHeight = 5;
+      </script>
+  </head>
+  <body>
+    <div id="imgBorder">
+    <img id="headShot"
+    src="http://cs.coloradocollege.edu/~ayeung/images/headShot.jpg"
+    width="105", height="110">
+    </div>
+    <div id="content">
+      <a id="name" href="home.html"><h1>Alan Yeung</h1></a>
+      <ul id="menu">
+	<li><a class="link" href="resume.html">Resume</a></li>
+	<li><div id="projects">Projects</div>
+	  <ul id="dropDown">
+	    <li>Coming Soon!</li>
+	  </ul>
+	</li>
+	<li><a class="link" href="mailto:yeungalan0@gmail.com">Contact</a></li>
+	<li><a class="link" href="about.html">About</a></li>
+	<li class="stretch"></li>
+      </ul>
+
+      <div class = "transbox">
+	<p> Hi there! </p>
+	<p>My name is Alan Yeung, and I'm a Computer Science and
+	  Economics major at Colorado College. <br><br>
+	  My research interests include computer vision and artificial
+	  intelligence. I would love to, one day, work on computer driven
+	  cars. Creating a network of wirelessly connected cars could save
+	  millions of lives and millions of hours. Also, on the economics side I'm interested in
+	  investments. Specifically I want to research human investment
+	  decisions and  prediction. <br><br>
+	  My hobbies include fly fishing, texas hold'em poker, hiking,
+	  running, tennis, and puzzles.<br><br>
+	  If you want to know more about me or want to chat about
+	  something interesting feel free to send me an <a href="mailto:yeungalan0@gmail.com">email</a>.<br><br>
+	  Also if you couldn't tell by the snow, I love the
+	  holidays!</p>
+	<p>Future Plans:</p>
+	<ul>
+	  <li>Work as a software engineer after graduating
+	  from Colorado College.</li>
+	  <li>Start a business that makes an impact on
+	  society.</li>
+	</ul>
+
+	<p>Goals:</p>
+	<ul>
+	  <li>Travel to every continent</li>
+	  <li>Make a fun robot</li>
+	  <li>See the northern lights (Aurora Borealis)</li>
+	</ul>
+	  
+	</div>
+    </div>
+
+    <a id="linkedIn" href="http://www.linkedin.com/in/alanyeung0"
+       style="text-decoration:none;"><span style="font: 80%
+						  Arial,sans-serif;
+						  color:#cc0000" ><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png"
+								       width="25" height="20" alt="View Alan Yeung's LinkedIn profile"
+								       style="vertical-align:middle;" border="0">&nbsp;View my profile</span></a>
+    <div id="stopSnow" onClick="snowStorm.toggleSnow()">Snow Control!</div>
+  </body>
+</html>
