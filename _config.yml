@@ -2,12 +2,10 @@ title:            Favorite Quotes
 description:      "Alan's Webpage"
 logo:             logo.png
 share:            true
-dropcap:	   true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:
-
 # Owner/author information
 owner:
   name:           Alan Yeung
@@ -15,7 +13,8 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Impossible problems are made from possible pieces
   # Social networking links used in footer. Update and remove as you like.
-
+  github: yeungalan0
+  
 # Links to include in footer navigation
 # For external links add external: true
 links:

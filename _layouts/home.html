@@ -2,8 +2,11 @@
 <html>
 <head>
 {% include head.html %}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script language="JavaScript" src="{{ site.url }}/assets/js/quotes.js"></script>
+<script> var quoteInterval =  setInterval(function () {getQuotes()}, 7000); </script>
 </head>
-<body class="home-template" itemscope itemtype="http://schema.org/WebPage">
+<body class="home-template" itemscope itemtype="http://schema.org/WebPage" onload="getQuote(0)">
 <header class="notepad-site-head">
     <div class="notepad-site-head-menu">
         <a class="notepad-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /></a>
@@ -35,12 +38,19 @@
           {{ site.title }}
         </span>
       </h1>
-      <!-- add quotes here! -->
-      <h2 class="notepad-blog-description">{{ site.description }}</h2>
+      <!-- First quote is automatically grabbed from quotes.txt! -->
+      <h2 id="quote"></h2>
     </div>
+    <div class="button-container">
+      <div class="round-button" onClick="getQuote(1)"><div class="round-button-circle"></div></div>
+      <div class="round-button" onClick="getQuote(2)"><div class="round-button-circle"></div></div>
+      <div class="round-button" onClick="getQuote(3)"><div class="round-button-circle"></div></div>
+      <div class="round-button" onClick="getQuote(4)"><div class="round-button-circle"></div></div>
+    </div>
+
 </header>
 
-
+<h2 class="post-description"> {{ page.post_description }} </h2>
 <main class="notepad-content" role="main">
 
             {{ content }}
