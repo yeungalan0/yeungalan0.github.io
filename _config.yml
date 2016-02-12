@@ -11,10 +11,9 @@ url:
 # Owner/author information
 owner:
   name:           Alan Yeung
-#  avatar:         ameyjadiye.jpg
   email:          yeungalan0@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Programming is 1% knowledge, 2% ability and 97% getting the ability to work with the knowledge :)
+  description:    Impossible problems are made from possible pieces
   # Social networking links used in footer. Update and remove as you like.
 
 # Links to include in footer navigation
@@ -28,36 +27,22 @@ links:
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Calcutta
+timezone:    America/Denver
 future:      true
-#markdown:    kramdown
-
-# Build settings
-markdown: redcarpet
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
+markdown:    kramdown
 paginate:    5
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   pretty
 
-# kramdown:
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
-#   enable_coderay: false
-#   input: GFM
-
-Redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
-  
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+  input: GFM
 
 gems:
 - jemoji

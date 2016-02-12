@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about/index.html
+permalink: /about
 title: Alan Yeung
 chart: true
 ---
