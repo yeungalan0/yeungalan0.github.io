@@ -1,2 +1,3 @@
-# Ignore all emacs backup files
-*~
+_site
+.sass-cache
+.jekyll-metadata
