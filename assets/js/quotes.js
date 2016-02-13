@@ -2,6 +2,8 @@
 function getQuotes() {
     $.get( "/quotes.txt", function(data) {
 	var next = $("#quote").data("current") + 1;
+	console.log($("#quote").data("current"));
+	console.log(next);
 	var lines = data.split("\n");
 	//Account for the "" found at the end of the array
 	if (next > lines.length - 2) {
@@ -17,9 +19,14 @@ function getQuotes() {
     })
 }
 
-function getQuote(quoteNumber) {
+function getQuote(quoteNumber, clear) {
+    if(clear === undefined) {
+	clear = true;
+   }
     $.get( "/quotes.txt", function(data) {
-	clearInterval(quoteInterval);
+	if(clear) {
+	    clearInterval(quoteInterval);
+	}
 	var lines = data.split("\n");
 	//Account for the "" found at the end of the array
 	var line = lines[quoteNumber];
