@@ -37,7 +37,7 @@ function addButtons() {
 	var lines = data.split("\n");
 	//Account for the "" found at the end of the array with a -1
 	for (var i = 0; i < lines.length - 1; i++) {
-	    $(".button-container").append('<div class="round-button" onClick="getQuote(' + i + ')"><div class="round-button-circle"></div></div>');
+	    $(".buttons-container").append('<div class="button-container"><p class="round-button" onClick="getQuote(' + i + ')"></p></div>');
 	}
     })
 }
