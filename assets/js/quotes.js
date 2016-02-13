@@ -2,8 +2,6 @@
 function getQuotes() {
     $.get( "/quotes.txt", function(data) {
 	var next = $("#quote").data("current") + 1;
-	console.log($("#quote").data("current"));
-	console.log(next);
 	var lines = data.split("\n");
 	//Account for the "" found at the end of the array
 	if (next > lines.length - 2) {
