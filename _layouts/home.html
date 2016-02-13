@@ -6,7 +6,7 @@
 <script language="JavaScript" src="{{ site.url }}/assets/js/quotes.js"></script>
 <script> var quoteInterval =  setInterval(function () {getQuotes()}, 7000); </script>
 </head>
-<body class="home-template" itemscope itemtype="http://schema.org/WebPage" onload="getQuote(0)">
+<body class="home-template" itemscope itemtype="http://schema.org/WebPage" onload="getQuote(0); addButtons()">
 <header class="notepad-site-head">
     <div class="notepad-site-head-menu">
         <a class="notepad-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /></a>
@@ -38,15 +38,11 @@
           {{ site.title }}
         </span>
       </h1>
-      <!-- First quote is automatically grabbed from quotes.txt! -->
-      <h2 id="quote"></h2>
+      <!-- First quote is automatically grabbed from quotes.txt -->
+      <h2 id="quote" data-current="0"></h2>
     </div>
-    <div class="button-container">
-      <div class="round-button" onClick="getQuote(1)"><div class="round-button-circle"></div></div>
-      <div class="round-button" onClick="getQuote(2)"><div class="round-button-circle"></div></div>
-      <div class="round-button" onClick="getQuote(3)"><div class="round-button-circle"></div></div>
-      <div class="round-button" onClick="getQuote(4)"><div class="round-button-circle"></div></div>
-    </div>
+    <!-- Buttons are automatically added on load based on the number of quotes in quotes.txt -->
+    <div class="button-container"></div>
 
 </header>
 

@@ -12,7 +12,7 @@ function getQuotes() {
 	var quote = line.slice(0, line.indexOf('"-') + 1);
 	$("#quote").data("current", next);
 	$("#quote").fadeOut(500, function() { 
-	    $("#quote").html(quote + "<br/>" + author).fadeIn(500);
+	    $("#quote").html(quote + "</br>" + author).fadeIn(500);
 	});
     })
 }
@@ -27,7 +27,17 @@ function getQuote(quoteNumber) {
 	var quote = line.slice(0, line.indexOf('"-') + 1);
 	$("#quote").data("current", quoteNumber);
 	$("#quote").fadeOut(500, function() { 
-	    $("#quote").html(quote + "<br><br>" + author).fadeIn(500);
+	    $("#quote").html(quote + "</br>" + author).fadeIn(500);
 	});
+    })
+}
+
+function addButtons() {
+    $.get( "/quotes.txt", function(data) {
+	var lines = data.split("\n");
+	//Account for the "" found at the end of the array with a -1
+	for (var i = 0; i < lines.length - 1; i++) {
+	    $(".button-container").append('<div class="round-button" onClick="getQuote(' + i + ')"><div class="round-button-circle"></div></div>');
+	}
     })
 }
