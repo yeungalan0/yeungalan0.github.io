@@ -1083,7 +1083,9 @@ img.mfp-img {
     background-color: black;
 }
 .round-button {
-    align-self: center;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;   
     background-color: black;
     border: 3px solid white;
     height:1.5em;
@@ -1093,8 +1095,16 @@ img.mfp-img {
     -webkit-border-radius:75px;
     -moz-border-radius:75px;
 }
+.active {
+    background-color: #006699;
+    height:1.8em;
+    width:1.8em;
+    bottom: .15em;
+    position: relative;
+}
 .button-container {
     padding:.5%;
+    display: table;
 }
 .round-button:hover {
     box-shadow: 0 0 8px rgba(81, 203, 238, 1);

@@ -6,7 +6,7 @@
 <script language="JavaScript" src="{{ site.url }}/assets/js/quotes.js"></script>
 <script> var quoteInterval =  setInterval(function () {getQuotes()}, 7000); </script>
 </head>
-<body class="home-template" itemscope itemtype="http://schema.org/WebPage" onload="getQuote(0, false); addButtons()">
+<body class="home-template" itemscope itemtype="http://schema.org/WebPage" onload="addButtons(); getQuote(0, false)">
 <header class="notepad-site-head">
     <div class="notepad-site-head-menu">
         <a class="notepad-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /></a>

@@ -13,6 +13,7 @@ function getQuotes() {
 	var author = line.slice(line.indexOf('"-') + 1);
 	var quote = line.slice(0, line.indexOf('"-') + 1);
 	$("#quote").data("current", next);
+	setActive(next);
 	$("#quote").fadeOut(500, function() { 
 	    $("#quote").html(quote + "</br>" + author).fadeIn(500);
 	});
@@ -33,10 +34,21 @@ function getQuote(quoteNumber, clear) {
 	var author = line.slice(line.indexOf('"-') + 1);
 	var quote = line.slice(0, line.indexOf('"-') + 1);
 	$("#quote").data("current", quoteNumber);
+	setActive(quoteNumber);
 	$("#quote").fadeOut(500, function() { 
 	    $("#quote").html(quote + "</br>" + author).fadeIn(500);
 	});
     })
+}
+
+// Set the button of the quote number to an active state
+function setActive(quoteNumber) {
+    $("#button-" + quoteNumber).toggleClass("active");
+    var previous = $("#quote").data("previous");
+    if (previous != undefined) {
+	$("#button-" + previous).toggleClass("active");
+    }
+    $("#quote").data("previous", quoteNumber);
 }
 
 function addButtons() {
@@ -44,7 +56,7 @@ function addButtons() {
 	var lines = data.split("\n");
 	//Account for the "" found at the end of the array with a -1
 	for (var i = 0; i < lines.length - 1; i++) {
-	    $(".buttons-container").append('<div class="button-container"><p class="round-button" onClick="getQuote(' + i + ')"></p></div>');
+	    $(".buttons-container").append('<div class="button-container"><p class="round-button" id="button-' + i + '" onClick="getQuote(' + i + ')"></p></div>');
 	}
     })
 }
