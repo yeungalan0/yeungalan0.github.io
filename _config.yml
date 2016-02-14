@@ -6,6 +6,7 @@ share:            true
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:
+baseurl: 
 # Owner/author information
 owner:
   name:           Alan Yeung
@@ -20,7 +21,7 @@ owner:
 # For external links add external: true
 links:
   - title: Home
-    url: /
+    url: 
     external: false
     icon: home
   - title: About

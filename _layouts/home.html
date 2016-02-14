@@ -7,29 +7,27 @@
 <script> var quoteInterval =  setInterval(function () {getQuotes()}, 7000); </script>
 </head>
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage" onload="addButtons(); getQuote(0, false)">
-<header class="notepad-site-head">
+  <header class="notepad-site-head">
     <div class="notepad-site-head-menu">
-        <a class="notepad-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /></a>
-        
-        
-        <div class="notepad-blog-menu">      
-    <div class="notepad-mobile-menu show-for-small">
-        <a href="#"><i class="fa fa-bars"></i></a>
-    </div>
-    <ul class="notepad-menu">
-        <li class="notepad-mobile-close-btn show-for-small text-right">
+      <a class="notepad-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /></a>
+      <div class="notepad-blog-menu">      
+	<div class="notepad-mobile-menu show-for-small">
+          <a href="#"><i class="fa fa-bars"></i></a>
+	</div>
+	<ul class="notepad-menu">
+          <li class="notepad-mobile-close-btn show-for-small text-right">
             <a href="#"><i class="fa fa-times"></i></a>
-        </li>
-{% for link in site.links %}
-            <li>{% if link.external %}
+          </li>
+	  {% for link in site.links %}
+          <li>{% if link.external %}
             <a href="{{ link.url }}">{{ link.title }}</a>
             {% else %}
             <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
             {% endif %} </li>
-{% endfor %}            
-    </ul>
-</div>
-        <div class="clearfix"></div>
+	  {% endfor %}            
+	</ul>
+      </div>
+      <div class="clearfix"></div>
     </div>
     <div class="notepad-site-head-content" >
       <div class="notepad-site-head-bg"></div>
@@ -41,16 +39,16 @@
     </div>
     <!-- Buttons are automatically added on load based on the number of quotes in quotes.txt -->
     <div class="buttons-container"></div>
-
-</header>
-
-<h2 class="post-description"> {{ page.post_description }} </h2>
-<main class="notepad-content" role="main">
-
-            {{ content }}
-</main>
-    {% include footer.html %}
-
-{% include scripts.html %}  
+    
+  </header>
+  
+  <h2 class="post-description"> {{ page.post_description }} </h2>
+  <main class="notepad-content" role="main">
+    
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  
+  {% include scripts.html %}  
 </body>
 </html>
