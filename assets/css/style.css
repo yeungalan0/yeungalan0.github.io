@@ -165,8 +165,7 @@ main, .notepad-share-icons, .notepad-disqus {
   .notepad-site-head .notepad-site-head-content.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
   .notepad-site-head .notepad-site-head-content .notepad-site-head-title-bg {
-    position:relative;
-    top:-50px;
+    margin-bottom: 2em;
     display: inline-block;
     padding: 0.625rem;
     background: #006699;
@@ -177,7 +176,7 @@ main, .notepad-share-icons, .notepad-disqus {
     color: white;
     text-transform: uppercase; }
   .notepad-site-head .notepad-site-head-content h1 {
-    padding-top: 4.375rem;
+    padding-top: 2.375rem;
     font-size: 0.875rem;
     margin-bottom: 0.9375rem; }
   .notepad-site-head .notepad-site-head-content h2 {
@@ -194,7 +193,7 @@ main, .notepad-share-icons, .notepad-disqus {
       font-weight: 700; } }
   @media only screen and (min-width: 70em) {
     .notepad-site-head .notepad-site-head-content h1 {
-      padding-top: 9.375rem;
+      padding-top: 4rem;
       font-size: 1rem; }
     .notepad-site-head .notepad-site-head-content h2 {
       font-size: 4.375rem;
@@ -202,13 +201,13 @@ main, .notepad-share-icons, .notepad-disqus {
       font-weight: 700; } }
   @media only screen and (min-width: 90em) {
     .notepad-site-head .notepad-site-head-content h1 {
-      padding-top: 5rem; }
+      padding-top: 4rem; }
     .notepad-site-head .notepad-site-head-content h2 {
       font-size: 5rem;
       padding-bottom: 10.3125rem; } }
   @media only screen and (min-width: 100em) {
     .notepad-site-head .notepad-site-head-content h1 {
-      padding-top: 6.5rem; }
+      padding-top: 4rem; }
     .notepad-site-head .notepad-site-head-content h2 {
       font-size: 6.25rem;
       padding-bottom: 5rem; } }
@@ -219,7 +218,7 @@ main, .notepad-share-icons, .notepad-disqus {
   padding-bottom: 2.5rem;
   border-bottom: 0.0625rem solid #d9d9d9; }
   .notepad-content .notepad-index-post:first-of-type {
-    padding-top: 5rem; }
+    padding-top: .5rem; }
   .notepad-content .notepad-index-post .datetime {
     margin-bottom: 2.5rem; }
   @media only screen and (min-width: 40.063em) {
@@ -227,7 +226,7 @@ main, .notepad-share-icons, .notepad-disqus {
       padding-top: 4.375rem;
       padding-bottom: 4.375rem; }
       .notepad-content .notepad-index-post:first-of-type {
-        padding-top: 7.5rem; }
+        padding-top: 2.5rem; }
       .notepad-content .notepad-index-post .datetime {
         margin-bottom: 0; } }
   .notepad-content .notepad-index-post .notepad-post-meta {
@@ -1070,9 +1069,8 @@ img.mfp-img {
   right: 0;
   padding-top: 0; }
 .post-description {
-  position: relative;
-  left: 150px;
-  top: 20px;
+    margin: auto;
+    width: 70%;
 }
 .buttons-container {
     width: 100%;
