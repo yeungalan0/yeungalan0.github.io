@@ -9,6 +9,7 @@ url: http://yeungalan0.github.io/
 # Owner/author information
 owner:
   name:           Alan Yeung
+  avatar: 	  alan_yeung.jpg
   email:          yeungalan0@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Impossible problems are made from possible pieces
@@ -25,7 +26,9 @@ links:
     icon: home
   - title: About
     url: /about
-
+  - title: Categories
+    url: /categories
+    
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Denver
 future:      true
