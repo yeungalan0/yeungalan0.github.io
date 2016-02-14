@@ -25,9 +25,11 @@ links:
     external: false
     icon: home
   - title: About
-    url: /about
+    url: about
   - title: Categories
-    url: /categories
+    url: categories
+  - title: Resume
+    url: resume
     
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Denver
