@@ -1,6 +1,6 @@
 # My Webpage
 
-This is the code used to create my personal webpage in which I post the current projects I'm working on, my resume, a brief about me, and life lessons in general. I hope you like it!
+This is the code used to create my personal webpage in [Jekyll!](https://jekyllrb.com/) I post the current projects I'm working on, my resume, a brief about me, and life lessons in general.
 
 # Credits
 
