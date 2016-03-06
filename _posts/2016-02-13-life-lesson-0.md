@@ -17,9 +17,10 @@ First, if you don't use version contol, shame on you. Please do it now! It will 
 
 Next, if you do use version control, yay! You'll have less headaches in life (I guarantee it). However, even with version control problems will still happen, so I offer you this advice, commit code early and commit code often. You never know when a small change you made in your _config.yml file will break your webpage hours later because Jekyll can't automatically update config file changes, and you bang your head on the table reverting all your changes in several different files trying to find the problem (just a hypothetical example).
 
-#So in summary:#
-1. Get and use a version control system!
-2. Commit code early and commit often!
+# So in summary: #
+	
+	1. Get and use a version control system!
+	2. Commit code early and commit often!
 
 "Anyone who has never made a mistake has never tried anything new."
 - Albert Einstein
