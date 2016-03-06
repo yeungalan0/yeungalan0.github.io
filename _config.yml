@@ -29,7 +29,7 @@ links:
   - title: Categories
     url: categories
   - title: Resume
-    url: resume
+    url: assets/resume/resume_cv.pdf
     
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Denver
