@@ -29,21 +29,21 @@
 
 %------------------------------------------------
 
-% \vspace{-1.25em}
-% \cventry
-% {Treasurer (2012-2013)/Member} % Affiliation/role
-% {Asian Student Union} % Organization/group
-% {Colorado Springs, CO} % Location
-% {Dec. 2012 - May 2016} % Date(s)
-% { % Description(s) of experience/contributions/knowledge
-% \begin{cvitems}
-% \item {Actively participated in discussions on the club's direction and current events}
-% \item {Managed organization funds and allocation of over \$4,000 yearly}
-% \item {Organized events and budgeted costs}
-% \item {Coordinated and actively participated in fund raising endeavors}
-% \item {Applied for grants and all other additional funding required}
-% \end{cvitems}
-% }
+\vspace{-1.25em}
+\cventry
+{Treasurer (2012-2013)/Member} % Affiliation/role
+{Asian Student Union} % Organization/group
+{Colorado Springs, CO} % Location
+{Dec. 2012 - May 2016} % Date(s)
+{ % Description(s) of experience/contributions/knowledge
+\begin{cvitems}
+\item {Actively participated in discussions on the club's direction and current events}
+\item {Managed organization funds and allocation of over \$4,000 yearly}
+\item {Organized events and budgeted costs}
+\item {Coordinated and actively participated in fundraising endeavors}
+\item {Applied for grants and all other additional funding required}
+\end{cvitems}
+}
 
 %------------------------------------------------
 
