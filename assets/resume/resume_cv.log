@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99993 (TeX Live 2016/dev) (preloaded format=xelatex 2016.8.13)  9 FEB 2018 14:46
+This is XeTeX, Version 3.14159265-2.6-0.99993 (TeX Live 2016/dev) (preloaded format=xelatex 2016.8.13)  13 FEB 2018 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -724,19 +724,19 @@ LaTeX Info: Redefining \selectfont on input line 72.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
+* h-part:(L,W,R)=(48.36958pt, 500.7687pt, 48.36958pt)
+* v-part:(T,H,B)=(36.98866pt, 771.06952pt, 36.98866pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=745.46222pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-66.59087pt
+* \textwidth=500.7687pt
+* \textheight=771.06952pt
+* \oddsidemargin=-23.9004pt
+* \evensidemargin=-23.9004pt
+* \topmargin=-72.28133pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
-* \footskip=14.22636pt
+* \footskip=0.0pt
 * \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
@@ -843,29 +843,24 @@ Overfull \hbox (128.0374pt too wide) in paragraph at lines 98--98
 []|  
  []
 
-) (./cv-sections/skills.tex
-Overfull \hbox (0.44048pt too wide) in alignment at lines 11--41
-[] [] 
- []
+) (./cv-sections/skills.tex) (./cv-sections/experiences.tex)
+(./cv-sections/extracurricular.tex [1
 
-) (./cv-sections/experiences.tex) (./cv-sections/extracurricular.tex)
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
- [1
-
-]
+ [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
-
-(./resume_cv.aux)
+ (./resume_cv.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 102.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 28494 strings out of 495632
- 506587 string characters out of 6187765
- 649561 words of memory out of 5000000
- 31428 multiletter control sequences out of 15000+600000
- 6504 words of font info for 75 fonts, out of 8000000 for 9000
+ 28496 strings out of 495632
+ 506691 string characters out of 6187765
+ 648535 words of memory out of 5000000
+ 31429 multiletter control sequences out of 15000+600000
+ 6512 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,19n,68p,10396b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume_cv.pdf (1 page).
+Output written on resume_cv.pdf (2 pages).
