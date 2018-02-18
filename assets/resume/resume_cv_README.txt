@@ -5,3 +5,5 @@ sudo dnf install texlive-collection-fontsrecommended texlive-xetex texlive-latex
 [ayeung@localhost resume]$ pwd
 /home/ayeung/github/assets/resume
 [ayeung@localhost resume]$ xelatex resume_cv.tex
+
+# If there is a blank second page, open with gnome-open, print pdf to a file, then save only the first page, and finally overwrite the current resume copy
