@@ -11,7 +11,15 @@ My name is Alan Yeung, and I'm a Computer Science and Economics major at Colorad
   * Work as a system administrator at Lockheed Martin after graduating from Colorado College.
   * Start a business that makes an impact on society.
 
-#### Goals: ####
-  * Travel to every continent
-  * Make a fun robot
-  * See the northern lights (Aurora Borealis)
+#### 10 year Goals (34): ####
+  * Financial freedom by ~30
+    * Minimum $1,000 of "passive" income per month (adjusted for inflation)
+  * Solid relationships
+    * Good relationship with family
+    * Solid friend group
+    * Many memories made
+  * Travel experiences
+    * Japan, Korea
+    * Europe
+    * Australia
+    
