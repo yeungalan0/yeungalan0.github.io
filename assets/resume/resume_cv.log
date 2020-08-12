@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.6.8)  14 JUL 2020 07:43
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.6.8)  12 AUG 2020 08:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -651,30 +651,30 @@ LaTeX Info: Redefining \nameref on input line 72.
 \@outlinefile=\write3
 \openout3 = `resume_cv.out'.
 
- (./cv-sections/education.tex
+ (./cv-sections/experiences.tex
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 20.
+(Font)              scaled to size 10.95116pt on input line 30.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.6658pt on input line 20.
+(Font)              scaled to size 7.6658pt on input line 30.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.47559pt on input line 20.
+(Font)              scaled to size 5.47559pt on input line 30.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 20.
+(Font)              scaled to size 10.94882pt on input line 30.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.66417pt on input line 20.
+(Font)              scaled to size 7.66417pt on input line 30.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.47441pt on input line 20.
+(Font)              scaled to size 5.47441pt on input line 30.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 20.
+t line 30.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 20.
+t line 30.
 )
-(./cv-sections/projects.tex) (./cv-sections/skills.tex)
-(./cv-sections/experiences.tex) (./cv-sections/extracurricular.tex)
+(./cv-sections/skills.tex) (./cv-sections/education.tex)
+(./cv-sections/projects.tex) (./cv-sections/extracurricular.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
 
 
@@ -700,6 +700,6 @@ Here is how much of TeX's memory you used:
  31212 multiletter control sequences out of 15000+600000
  534861 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 54i,11n,109p,800b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,11n,109p,800b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume_cv.pdf (1 page).
