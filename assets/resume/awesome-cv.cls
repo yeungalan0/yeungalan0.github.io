@@ -526,7 +526,7 @@
 \newcommand*{\cventry}[5]{%
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 5cm} R{5cm}}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 8cm} R{8cm}}
     \ifempty{#2#3}
     {\entrypositionstyle{#1} & \entrydatestyle{#4}\\}
     {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
@@ -549,13 +549,15 @@
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \setlength\leftskip{0.2cm}
     \subentrytitlestyle{#2} & \ifthenelse{\equal{#1}{}}
-      {\subentrydatestyle{#3}}{} 
-    \ifthenelse{\equal{#1}{}}
-      {}
-      {\subentrypositionstyle{#1} & \subentrydatestyle{#3} \\}
-    \ifthenelse{\equal{#4}{}}
-      {}
-      {\multicolumn{2}{L{17.0cm}}{\subdescriptionstyle{#4}} \\}
+      {\subentrydatestyle{#3}}{} \\
+    \ifx\relax#1\relax
+    \else
+      \subentrypositionstyle{#1} & \subentrydatestyle{#3} \\
+    \fi
+    \ifx\relax#4\relax
+    \else
+      \multicolumn{2}{L{17.0cm}}{\subdescriptionstyle{#4}} \\
+    \fi
   \end{tabular*}
 }
 
